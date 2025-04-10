@@ -1,0 +1,11 @@
+/* page background color */
+body {
+  background-color: #504b38;
+}
+
+/* styling for heading */
+h1 {
+  font-family: 'JetBrains Mono', monospace;
+  text-align: center;
+  color: #f8f3d9;
+}
