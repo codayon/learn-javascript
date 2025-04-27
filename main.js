@@ -1,29 +1,29 @@
-  ///////////////////////////
- /// learning javascript ///
 ///////////////////////////
-
-
+/// learning javascript ///
+///////////////////////////
 
 // use of backtick
 let title = "fighter";
-console.log(`conor is a ${title}`);
+title == "fighter"
+  ? console.log("he is a fighter.")
+  : console.log("he is not a fighter.");
 
-// use of function
-function math (){
-	let one = 1;
-	let two = 2;
-	console.log (`one and two equals to ${one + two}`);
-};
-math ();
+// use of split, toUpperCase, toLowerCase,
+let nickname = "there is a guy named joe rogan.";
+console.log(nickname.split(" "));
+console.log(nickname.split(" ")[5]);
+console.log(nickname.toLowerCase());
+console.log(nickname.toUpperCase());
 
-// project one
-let members = ['don', 'john', 'ron']
-for (let i = 0; i < members.length; i++){
-	console.log (`let's welcome our new memeber ${members[i]}!`);
-};
+// use of dom
+let heading = document.querySelector("h1");
+console.log(heading.innerHTML);
+let reading = document.querySelectorAll("h3");
+console.log(reading);
 
-// project two: using map 
-let students = ['joe', 'bob', 'ben']
-students.map (useless=>{
-	console.log (`and, let's not welcome ${useless}.`)
+// project one: change color
+let body = document.querySelector("body");
+let button = document.querySelector("button");
+button.addEventListener("click", function () {
+  body.style.backgroundColor = "#222222";
 });

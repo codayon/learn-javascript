@@ -1,11 +1,25 @@
 /* page background color */
 body {
   background-color: #504b38;
+  display: flex; /* Enable flexbox for the body */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  margin: 0; /* Remove default body margin */
+  flex-direction: column; /* Arrange items vertically */
 }
 
 /* styling for heading */
-h1 {
-  font-family: 'Fira Code', monospace;
-  text-align: center;
-  color: #f8f3d9;
+h1,
+h3 {
+  font-family: "Fira Code", monospace;
+  color: #efefef;
+}
+
+button {
+  font-family: "Fira Code", monospace;
+  margin-top: 10px;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
 }
