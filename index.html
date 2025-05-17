@@ -7,7 +7,30 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>learning javascript</h1>
+    <h1 id="learningJs">learning javascript</h1>
+
+    <!-- Purpose: Necessary HTML for innerHTML and innerText -->
+
+    <p id="innerHTML"></p>
+    <p id="innerText"></p>
+
+    <!--
+    Method: write()
+    Description: Using it after HTML document is loaded, will delete existing HTML
+    Note: This method should only be used for testing.
+    -->
+
+    <button type="button" onclick="document.write('write()')">
+      write() after
+    </button>
+
+    <!--
+    Method: window.print()
+    Description: print the content of the current window.
+    -->
+
+    <button onclick="window.print()">window.print()</button>
+
     <script src="./main.js"></script>
   </body>
 </html>

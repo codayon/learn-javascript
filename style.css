@@ -1,14 +1,9 @@
 body {
   background-color: #111111;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-  display: flex;
-  margin: 0;
-}
-h1 {
   font-family: monospace;
   color: #999999;
-  font-size: 48px;
+}
+#learningJs {
+  border-bottom: 3px solid #999999;
+  padding-bottom: 10px;
 }
